@@ -10,7 +10,8 @@ import FAQ from './components/FAQ'
 import CTA from './components/CTA'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
-import StickyActions from './components/StickyActions'
+import StickyDemoCTA from './components/StickyDemoCTA'
+import ScrollToTop from './components/ScrollToTop'
 
 
 export default function Page() {
@@ -28,7 +29,8 @@ return (
 <Testimonials />
 <ContactForm />
 <Footer />
-<StickyActions />
+<StickyDemoCTA />
+<ScrollToTop />
 </main>
 )
 }
