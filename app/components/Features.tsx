@@ -56,7 +56,7 @@ export default function Features() {
         <Card accent="rose"    icon="✉️" title="Messaging"        desc="Secure inbox, patient reminders, two-way updates." />
         <Card accent="violet"  icon="🔐" title="Security"         desc="RBAC, audit logs, SSO, encryption at rest & transit." />
         {/* Row 3 (new) */}
-        <Card accent="cyan"    icon="🔗" title="Interoperability" desc="HL7/FHIR, eFax, and open APIs to connect your tools." />
+        <Card accent="cyan"    icon="🔗" title="Interoperability" desc="Labs and external systems, build in Fax, and APIs for select third-party tools." />
         <Card accent="teal"    icon="👤" title="Patient portal"   desc="Forms, results, and secure messages in one place." />
         <Card accent="indigo"  icon="📈" title="Analytics"        desc="Operational and provider dashboards with export." />
       </div>

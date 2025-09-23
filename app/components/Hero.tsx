@@ -15,12 +15,7 @@ export default function Hero() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 grid lg:grid-cols-2 gap-12 items-center">
         {/* Left copy */}
         <div>
-          <div className="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs bg-white/80 shadow-sm">
-            <span className="h-2 w-2 rounded-full bg-blue-600" />
-            Canada-hosted • PIPEDA-ready
-          </div>
-
-          <h1 className="mt-4 text-4xl sm:text-5xl font-bold leading-tight tracking-tight">
+          <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight">
             The clear, modern EMR built for focus
           </h1>
 
@@ -28,34 +23,13 @@ export default function Hero() {
             Faster charting, cleaner scheduling, and effortless billing—without extra clicks.
           </p>
 
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-6">
             <Link
               href="#demo"
-              className="rounded-full bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
+              className="inline-flex rounded-full bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
             >
               Book a demo
             </Link>
-            <Link
-              href="#features"
-              className="rounded-full border px-6 py-3 hover:border-blue-300 bg-white/60 backdrop-blur focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
-            >
-              Explore features
-            </Link>
-          </div>
-
-          <div className="mt-6 grid grid-cols-3 gap-4 text-sm">
-            <div>
-              <div className="text-2xl font-bold">99.99%</div>
-              <div className="text-gray-500">Uptime</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold">≤2 min</div>
-              <div className="text-gray-500">Avg. response</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold">SOC-ready</div>
-              <div className="text-gray-500">Security</div>
-            </div>
           </div>
         </div>
 
@@ -87,17 +61,6 @@ export default function Hero() {
           {/* soft glows */}
           <div className="absolute -top-6 -right-6 h-24 w-24 rounded-full bg-blue-200/50 blur-2xl" />
           <div className="absolute -bottom-8 -left-8 h-24 w-24 rounded-full bg-indigo-200/50 blur-2xl" />
-        </div>
-      </div>
-
-      {/* partner strip */}
-      <div className="border-t bg-white/70">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex items-center gap-8 text-xs text-gray-500 flex-wrap justify-center">
-            <span>Trusted by clinics across Canada &amp; US</span>
-            <span className="h-3 w-px bg-gray-300" />
-            <span>eFax • HL7 • FHIR • SSO</span>
-          </div>
         </div>
       </div>
     </section>
